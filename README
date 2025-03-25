@@ -1,0 +1,7 @@
+taostats api example
+
+1. obtain an api key from https://dash.taostats.io/
+2. copy paste .env.example -> .env
+3. set the API key in the .env file
+4. run "npm install"
+5. run "node index.js"

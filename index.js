@@ -4,7 +4,7 @@ import 'dotenv/config';
 async function main() {
     taostats.auth(process.env.TAOSTATS_API_KEY);
     const validatorData = await taostats.getValidatorDtao({
-        hotkey: '5GKH9FPPnWSUoeeTJp19wVtd84XqFW4pyK2ijV2GsFbhTrP1'
+        hotkey: '5GKH9FPPnWSUoeeTJp19wVtd84XqFW4pyK2ijV2GsFbhTrP1' // this is the hotkey of the validator - here we are using taostats' hotkey as an example
     });
 
     const validatorDataWithLimit = await taostats.getValidatorHistoryDtao({
