@@ -1,0 +1,16 @@
+{
+  "name": "taostats-api-example",
+  "version": "1.0.0",
+  "description": "taostats api example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Syeam Bin Abdullah",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@api/taostats": "file:.api/apis/taostats",
+    "dotenv": "^16.4.7"
+  }
+}
